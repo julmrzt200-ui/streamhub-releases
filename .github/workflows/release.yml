@@ -21,15 +21,15 @@ jobs:
       - name: Create or Update GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v1.7.277-lab
-          name: "StreamFlow v1.7.277-lab"
+          tag_name: v1.7.278-lab
+          name: "StreamFlow v1.7.278-lab"
           body: |
-            ## Actualización automática de StreamFlow (v1.7.277-lab)
+            ## Actualización automática de StreamFlow (v1.7.278-lab)
 
             ### Archivos disponibles para instalación:
-            - **Universal (Móvil y TV):** `streamflow-1.7.277-lab-universal.apk` (Recomendado)
-            - **Móvil:** `streamflow-1.7.277-lab-mobile.apk`
-            - **Android TV / Fire TV:** `streamflow-1.7.277-lab-tv.apk`
+            - **Universal (Móvil y TV):** `streamflow-1.7.278-lab-universal.apk` (Recomendado)
+            - **Móvil:** `streamflow-1.7.278-lab-mobile.apk`
+            - **Android TV / Fire TV:** `streamflow-1.7.278-lab-tv.apk`
 
             *Actualizable directamente desde la aplicación mediante el actualizador integrado.*
           draft: false

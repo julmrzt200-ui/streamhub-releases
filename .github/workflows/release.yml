@@ -21,10 +21,10 @@ jobs:
       - name: Create or Update GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v1.7.284-lab
-          name: "StreamFlow v1.7.284-lab"
+          tag_name: v1.7.285-lab
+          name: "StreamFlow v1.7.285-lab"
           body: |
-            ## Actualización automática de StreamFlow (v1.7.284-lab)
+            ## Actualización automática de StreamFlow (v1.7.285-lab)
 
             ### Novedades y correcciones:
             - **Instalador nativo:** Solucionado el bucle de actualización en Fire TV / Android TV que impedía instalar la versión nueva.
@@ -34,12 +34,12 @@ jobs:
             - **Catálogo completo Magis TV:** Todos los 1.088 canales disponibles sin límite de paginación.
 
             ### Archivos disponibles para instalación:
-            - **Universal (Móvil y TV):** `streamflow-1.7.284-lab-universal.apk` (Recomendado)
-            - **Android TV / Fire TV:** `streamflow-1.7.284-lab-tv.apk`
-            - **Móvil:** `streamflow-1.7.284-lab-mobile.apk`
-            - **StreamHub TV:** `streamhub-1.7.284-lab-tv.apk`
-            - **StreamHub Universal:** `streamhub-1.7.284-lab-universal.apk`
-            - **StreamHub Móvil:** `streamhub-1.7.284-lab-mobile.apk`
+            - **Universal (Móvil y TV):** `streamflow-1.7.285-lab-universal.apk` (Recomendado)
+            - **Android TV / Fire TV:** `streamflow-1.7.285-lab-tv.apk`
+            - **Móvil:** `streamflow-1.7.285-lab-mobile.apk`
+            - **StreamHub TV:** `streamhub-1.7.285-lab-tv.apk`
+            - **StreamHub Universal:** `streamhub-1.7.285-lab-universal.apk`
+            - **StreamHub Móvil:** `streamhub-1.7.285-lab-mobile.apk`
 
             *Actualizable directamente desde la aplicación mediante el actualizador integrado.*
           draft: false
